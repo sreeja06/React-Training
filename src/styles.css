@@ -1,0 +1,98 @@
+.addCar {
+  outline: none;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 20px;
+  font-size: "30px";
+}
+
+.main-container {
+  width: 800px;
+  margin: 0;
+}
+
+.newCar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 800px;
+  margin: auto;
+  border-bottom-color: grey;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+}
+
+.carCross {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.delete {
+  outline: none;
+  border: none;
+}
+
+.startStatusAccelerateApply {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 500px;
+}
+
+.start {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: green;
+  margin-top: 20px;
+}
+
+.stop {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+.accelerateApplyBrakes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.accelerate {
+  color: blue;
+  border-color: blue;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.applyBrakes {
+  color: red;
+  border-color: red;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+}
